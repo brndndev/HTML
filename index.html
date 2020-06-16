@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <!-- Your HTML code goes here -->
+
+<h2>Hello</h2>
+<!-- [Name Submission Form feature] -->
+<br>
+<form action="/submit-your-name">
+    <input type="text" required placeholder="submit-your-name">
+    <button type="submit">Submit</button>
+<!-- [Radio Buttons feature] -->
+    <br>
+    <label for="male">
+      <input id="male" type="radio" name="male-female" checked>Male
+      </label>
+    <label for="female">
+      <input id="female" type="radio" name="male-female">Female
+    </label>
+<!-- [checkbox feature] Replace all (#)'s with personality traits -->
+    <label for="#"><input id="#" type="checkbox" name="personality" checked> #</label>
+    <label for="#"><input id="#" type="checkbox" name="personality"> #</label>
+    <label for="#"><input id="#" type="checkbox" name="personality"> #</label>
+  </form>
+  </br>
+  <!-- [Things you love/hate feature] -->
+<main>
+<div>
+
+  <p>Things you love:</p>
+  <form action="/Things-you-love">
+    <input type="text" placeholder="cat photo URL">
+  </form>
+  <button type="submit">submit</button>
+  <ol>
+    <li>pizza</li>
+    <li>dogs</li>
+    <li>video games</li>
+  </ol>
+
+
+  <p>Things you hate:</p>
+  <form action="/Things-you-hate">
+    <input type="text" placeholder="cat photo URL">
+  </form>
+  <button type="submit">submit</button>
+
+  <ol>
+    <li>school</li>
+    <li>thunder</li>
+    <li>public transportation</li>
+  </ol>
+</div>
+</main>
+</html>
